@@ -1,148 +1,28 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', sans-serif;
-}
 
+/* your code here */
 body {
-  background-color: #eee;
-  padding: 40px;
+    font-family: Arial, sans-serif;
+	background-color: #f5f5;
 }
 
-/* Product Section Container */
 .product {
-  display: flex;
-  max-width: 900px;
-  margin: auto;
-  background: #fff;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-/* Left Side - Photo */
-.product__photo {
-  flex: 1;
-  background-color: #f5f5f5;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
 }
 
 .photo-container {
-  width: 100%;
-}
-
-.photo-main {
-  position: relative;
-  background: #fff;
-  padding: 15px;
-  border-radius: 6px;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
 }
 
 .photo-main img {
-  max-width: 100%;
-  height: auto;
-}
-
-.controls {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.controls i {
-  margin-left: 10px;
-  cursor: pointer;
-  font-size: 18px;
-  color: #999;
-}
-
-.photo-album {
-  margin-top: 20px;
+    width: 300px; /* Adjust as needed */
 }
 
 .photo-album ul {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-  justify-content: center;
+    list-style-type: none;
 }
-
-.photo-album li img {
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  border-radius: 6px;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.photo-album li img:hover {
-  border-color: #4CAF50;
-}
-
-/* Right Side - Info */
-.product__info {
-  flex: 1;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.title h1 {
-  font-size: 28px;
-  color: #333;
-  margin-bottom: 5px;
-}
-
-.title span {
-  color: #999;
-  font-size: 14px;
-}
-
-.price {
-  margin: 20px 0;
-  font-size: 22px;
-  color: #4CAF50;
-  font-weight: bold;
-}
-
-.variant h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.variant ul {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-}
-
-.variant li img {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.variant li img:hover {
-  border-color: #4CAF50;
-}
-
-.description {
-  margin-top: 20px;
-  color: #555;
-  font-size: 14px;
-  line-height: 1.5;
-}
+ #addToCartBtn:{
+            background-color:#45a049 ;
+	         color: aqua;
+	
